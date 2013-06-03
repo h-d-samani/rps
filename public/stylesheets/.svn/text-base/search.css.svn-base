@@ -1,0 +1,120 @@
+/* Subheaders */
+.wt h1 {margin:0 0 0.5em 0; padding:0;}
+
+#contentcol .searchStat{
+	text-align: right;
+	margin-top: 5px;
+	margin-bottom: 20px;
+	margin-right: 5px;
+}
+.searchItem .searchRank {
+	font-weight: bold;
+	text-align: left;
+	display: block;
+	float: left;
+	width: 70px;
+}
+.searchItem .searchResult {
+	float: left;
+	vertical-align:top;
+	width:85%;
+}
+.searchResult a
+{font-size:110%;
+text-decoration:underline;
+}
+.searchItem .searchResult .searchInfo {
+	text-decoration: none;
+}
+.searchItem {	margin-top: 15px;}
+
+.searchForm{
+	padding: 5px 0px 5px 0px;
+	display: block;
+	width: 550px;
+	}
+#advanced{width: 640px;
+}
+.serchForm .simple{ margin-left:10px;}
+.searchAdvanced {
+        padding-left: 0;
+		display:block;
+}
+#searchExtra{
+	width:400px;
+	margin-left: 100px;
+	font-size: 120%;
+}
+#searchMiddle{
+	float:right;
+	width: 163px;
+	vertical-align: top;
+}
+
+.rbox_bl {background: url(http://search.usyd.edu.au/graphics/usyd/formBottomLeft.gif) 0 100% no-repeat #e6e6e6; padding: 0; margin: 0;}
+.rbox_br {background: url(http://search.usyd.edu.au/graphics/usyd/formBottomRight.gif) 100% 100% no-repeat}
+.rbox_tl {background: url(http://search.usyd.edu.au/graphics/usyd/formTopLeft.gif) 0 0 no-repeat}
+.rbox_tr {background: url(http://search.usyd.edu.au/graphics/usyd/formTopRight.gif) 100% 0 no-repeat; padding:10px}
+
+#studySearch {background-image:url(http://search.usyd.edu.au/graphics/usyd/study_search_bg.jpg); background-repeat:no-repeat; height:73px; width:163px; padding-top:0px; float:left; margin-bottom:4px;}
+#studySearch #title {color:#AB2730; font-weight:bold; margin-left:5px;}
+#studySearch ul { margin-left:55px; list-style-image:url(http://search.usyd.edu.au/graphics/usyd/bPointArrow.gif); margin-top:-3px;/* font-size:12px; */}
+#stuffSearch{background-image:url(http://search.usyd.edu.au/graphics/usyd/staff_search_bg.jpg); background-repeat:no-repeat; height:31px; width:163px; vertical-align:middle; padding-top:7px; margin-top:0px;}
+#stuffSearch a{vertical-align:middle; margin-left:30px; font-weight:bold; color:#F1C001; text-decoration:none; }
+
+.advancedElement{ margin-top:5px;}
+
+.elementLabel {
+	float: left;
+	padding: 5px;
+	width: 220px;
+	display: block;
+}
+.elementContent {
+	float: right;
+	width: 62%; 
+}
+
+.elementContent input{
+
+}
+
+.refineQuery{
+	font-weight:bold;
+}
+
+
+.searchFeatureBanner .rbox_bl{
+	background-color:#EAF0FA ;
+}
+
+.searchFeatureBanner .rbox_tr {background: url(http://search.usyd.edu.au/graphics/usyd/formTopRight_feature.gif) 100% 0 no-repeat; padding:10px}
+
+.searchSuggestion {
+ color:#FF0000;
+ margin-left:10px;
+ margin-top:5px;
+ margin-bottom:5px;
+
+}
+
+#sort {
+width: 300px; 
+}
+
+
+input.search-button
+{font-size:140%;
+width:65px;}
+
+input#query
+{font-size:140%;
+padding:0.2em;}
+
+.simple
+{padding:1em;}
+
+.result_page_links
+{text-align:center;}
+
+.subspcr {clear:both; display: block; height:1px; line-height:1px; font-size:0.1em}

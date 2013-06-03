@@ -1,0 +1,19 @@
+<h1>Results Data Export (completed only)</h1>
+
+<p>
+<%= link_to "Back to Home", :controller=>'admin',:action =>'index' %><br>
+<% if @o %>
+
+	<% for @oo in @o %>
+     	<b><%= @oo.ucode %> <%= @oo.uname %> <%= @oo.examiner.name %></b><br>
+		<table width="100%" border="0" cellspacing="0" cellpadding="0">
+		<tr><th>Student ID</th><th>Name</th><th>Mark</th><th>Grade</th></tr>
+
+     	<%	for @r in @oo.results %>
+        	<tr><td><%= @r.sid %></td><td><%= @r.sname %> <%= @r.fname %></td><td><%= @r.mark %></td><td><%= @r.grade %></td></tr>   
+     	<% end %>
+     	</table>
+	<% end %>       
+<% end %>
+
+</p>

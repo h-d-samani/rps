@@ -1,0 +1,199 @@
+/* Some inspiration from undohtml.css - (CC) 2004 Tantek Celik. Some Rights Reserved. */
+body {
+	background-color: #ffffff;
+	color:#333;
+	font:normal 62.5% Verdana, Arial, Helvetica, sans-serif;
+}
+a { color:#33c; }
+form input.field { 	border: 1px solid #EEB516; }
+input.button, a.button {
+	background: #eeb615 url(../images/common/bg_button_yellow_small.gif) left top no-repeat;
+	border-top: 1px solid #F8D472;
+	border-left: 1px solid #F8D472;
+	border-bottom: 1px solid #7E090E;
+	border-right: 1px solid #7E090E;
+	color: #7E090E;
+}
+a.button.large {
+	background-image: url(../images/common/bg_button_yellow_large.gif);
+}
+/* general styles 
+
+ul li {list-style: url(../images/common/list-item-square.gif); } 
+ul.linked li { list-style: url(../images/common/list-item-grey_caret.gif);}
+*/
+
+/**** page header styles ****/
+#head {background: #b3313a url(../images/common/bg_head.jpg) repeat-x;color: #fff;}
+body.home #head{background: url(../images/common/bg_head_home.jpg) repeat-x;}
+#head ul#nav-home a {
+	color: #fff;
+	background: url(../images/common/bg_nav_home.jpg) left top;
+	border-bottom: 1px solid #3a1314;
+}
+
+/* styles for controlling highlighting background image for home page graphic link bar */
+#head ul#nav-home a span.button {
+	background: #99252E url(../images/common/bg_nav_home_button.jpg) left top repeat-x;
+	opacity: 0.8; -moz-opacity: 0.8;
+}
+
+#head ul#nav-home li a:hover { color: #eeb516; }
+#head a {color: #fff;}
+#head form#search { background: url(../images/common/head_bot_left.gif) left bottom no-repeat;}
+
+form input.field { border: 1px solid #EEB516; }
+/*form select {
+	font-size: 1.0em;
+	border: 1px solid #EEB516;
+}*/
+
+select {
+	font-size: 1.0em;
+	border: 1px solid #EEB516;
+/*	height: 1.5em; */
+}
+
+#head #quicklinks select { 	width: 12.5em; }
+
+#head ul#nav-global {
+	background: url(../images/common/head_bot_right.gif) right bottom no-repeat;
+}
+
+#head #nav-global li.active {
+	font-weight: bold;
+	background: url(../images/common/global_nav_indicator.gif) center bottom no-repeat;
+}
+
+#head #nav-global li.active a {
+	font-weight: bold;
+	color: #EEB516;
+}
+
+.breadcrumb, .breadcrumb a{
+	color: #AA272F;
+}
+
+/* main styles */
+ul#tabs li { 
+	background-color: #a1232b;
+	color: white;
+	background: url(../images/common/bg_tab.gif) left top repeat-x; 
+}
+
+ul#tabs li span {
+	background: url(../images/common/tab_top_right.gif) right top no-repeat;
+}
+ul#tabs li a {  
+	color: white; 
+}
+
+ul#tabs li.active a {
+	color: #eeb516;
+	font-weight: bold;
+	background: url(../images/common/global_nav_indicator.gif) center bottom no-repeat;
+}
+
+ul#tabs li a span {
+	padding: 4px 10px 0px 10px; 
+	/*text-align: center; */
+	display: block;
+	background: url(../images/common/tab_top_left.gif) left top no-repeat;
+}
+
+ul#tabs li a:hover { 
+	color:#eeb516;
+}
+
+ul#tabs ul { 
+	background-color:#fdf8eb;
+	border:1px solid #ac2830;
+	border-top:1px solid transparent;
+	text-align:left !important;
+}
+
+ul#tabs ul li a, ul#tabs li.active ul li a {
+	color:#33c;
+}
+ul#tabs ul li a:hover, ul#tabs li.active ul li a:hover {
+	color:#33c;
+	background-color:#eee3c4; 
+}
+
+#content dl#visitors-index dt, #menu dt, #sidebar dt { color: #AB2B34;  font: bold 1.5em Arial, Helvetica, sans-serif; }
+
+#content .strip { 
+	border-top: 1px solid #d6d6d6; 
+	border-bottom: 1px solid #d6d6d6; 
+}
+#content h1, #content h2, #content h3, #content h4, #content h5, #content h6 {
+	color: #AB2B34;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#content h1 { border-bottom: 1px solid #d6d6d6;}
+#content h1 a { color: #AB2B34;}
+#content h2 a {text-decoration: none;}
+#content h1 a:hover{ color: #cd343e; }
+#content h2 a {font-weight:bold;}
+#content ul#featured.news li {border-bottom: 1px solid #d6d6d6;}
+#content ul#latest.news li, #content ul#home.news li {border-bottom: 1px dashed #d6d6d6;}
+
+#content ul.news li img {border: 1px solid #908A87;}
+#content ul.news li span.date { color: #999; }
+
+#content .news-photo { border: 1px solid #908A87;}
+#content .news-item { border-bottom: 1px dashed #d6d6d6; }
+
+#content ul.directory.column-list.border { border-right: 1px dashed #d6d6d6;}
+#content ul.panels li {border-right: 1px solid #d6d6d6;}
+#content ul.panels li h2 { width: 70%; margin-bottom: 0.2em; letter-spacing: 0px; font: 1.4em Arial, Helvetica, sans-serif; }
+#content ul.panels li a img { border: 1px solid #33c; padding: 1px; }
+
+#content table { background-color:#d6d6d6; }
+
+#content caption { color: #999; }
+
+#content table td, #content table th {background-color: white; }
+#content table th {	font-weight:bold; background:#f4e6c1 url(../images/common/bg_th.gif) repeat-x top left;}
+#content table tr th {background-color:#f4e6c1;}
+
+
+#content form.boxed {background-color: #f3f3f3;border: 1px solid #ddd;}
+
+#content ul#events > li { padding-bottom: 13px; border-bottom: 1px dashed #d6d6d6; }
+
+/** Sidebar styles **/
+#sidebar ul li { padding: 0.2em 0; list-style-image: url(../images/common/list-item-grey_caret.gif); font-size:1.1em;}
+#sidebar dl.feature { background: #FDF8EB url(../images/common/feature-generic-bot.gif) left bottom no-repeat;}
+
+#sidebar dl.feature dt.graphic  {color: white;}
+#sidebar dl.feature dd {background: url(../images/common/feature-generic-mid.gif) left top no-repeat;}
+
+#sidebar dl.feature.text {background: #fff;border: 1px solid #d6d6d6;}
+
+#sidebar dl.feature.text dt {
+	background: #f3e4bc;
+	border-bottom: 1px solid #d6d6d6;
+}
+#sidebar dl.feature.noborder {
+	border:none;
+	background:none;
+}
+#sidebar dl.feature.text dd {background: #fff;}
+#sidebar dl.feature img.photo {  border: 1px solid #908A87; }
+
+#sidebar a.graphic-feature { color: white; }
+
+/* footer styles */
+.f0, f1, f2 {height:1px;background-color:#ddd;}
+.f0 {margin:0;border-left:1px solid #f7f7f7;border-right:1px solid #f7f7f7;}
+.f1 {margin:0 1px;border-left:1px solid #efefef;border-right:1px solid #efefef;}
+.f2 {margin:0 2px;border-left:1px solid #f7f7f7;border-right:1px solid #f7f7f7;}
+.foot-content {background-color:#ddd;}
+
+/* for phonebook */
+
+table.role
+{background-color:#ab2730;
+padding:10px;}

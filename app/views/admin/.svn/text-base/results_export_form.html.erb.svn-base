@@ -1,0 +1,36 @@
+<h1>Results Data Export </h1>
+<% form_tag root_path+'admin/results_export' do %>
+<p>&nbsp;</p>
+	<p>
+		<label for="login">Examiner:</label>
+		<%= collection_select("login", "id" , @e, "id", "name", {:prompt => true}) %>
+	</p>
+<p>&nbsp;</p>	
+	<p>
+		<label for="ucode">UOS Code:</label>
+		<%= collection_select("ucode", "id" , @u, "id", "uname", {:prompt => true}) %>		
+	</p>	
+<p>&nbsp;</p>	
+	<p>
+		<label for="complete">Completed Status:</label>
+		<%= select_tag "complete", "<option value='0'>All</option><option value='1'>Completed</option><option value='2'>Inc</option><option value='3'>Not Completed</option>"
+		 %>
+	</p>	
+<p>&nbsp;</p>		
+	<p>
+		<label for="Export">Export:</label> 
+		No <%= radio_button_tag 'export', 'no', true %>
+		Yes <%= radio_button_tag 'export', 'yes', false %>
+	</p>	
+<p>&nbsp;</p>		
+	<p>
+		<%= submit_tag "Submit" %>
+		<input type=button value="Back" onClick="javascript:window.location='<%= root_path %>admin' ">	
+		
+	</p>
+	
+	<p>
+	
+	</p><br><br>
+
+<% end %>	

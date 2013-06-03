@@ -1,0 +1,40 @@
+10
+
+dir
+36
+svn+ssh://roses@agile-svn.ucc.usyd.edu.au/var/svn/repos/rps/trunk/app
+svn+ssh://roses@agile-svn.ucc.usyd.edu.au/var/svn/repos/rps
+
+
+
+2011-06-07T23:22:37.649983Z
+32
+zzilei
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+679a06a8-a203-4dc2-ac79-9b8e63144da9
+
+helpers
+dir
+
+models
+dir
+
+controllers
+dir
+
+views
+dir
+

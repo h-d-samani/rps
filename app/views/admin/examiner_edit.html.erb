@@ -1,0 +1,35 @@
+<h1>Change Examiner Password</h1>
+
+<% form_tag do %>
+<p>&nbsp;</p>
+	<p>
+		<label for="name">Name:</label>
+		<%= @e.name %>
+	</p>
+<p>&nbsp;</p>	
+	<p>
+		<label for="email">Email:</label>
+		<%= text_field_tag :email, @e.email %>
+	</p>
+<p>&nbsp;</p>	
+	<p>
+		<label for="admin">Admin:</label>
+		<% if(@e.admin == true) %> 		
+			No <%= radio_button_tag 'admin', 'no', false %>
+			Yes <%= radio_button_tag 'admin', 'yes', true %>		
+		<% else %>
+			No <%= radio_button_tag 'admin', 'no', true %>
+			Yes <%= radio_button_tag 'admin', 'yes', false %>				
+		<% end %>
+	</p>	
+<p>&nbsp;</p>
+	<p>
+	    <input type ='hidden' name='examiner_id' value='<%= @e.id %>'>
+		<%= submit_tag "submit" %>
+		<input type=button value="Back" onClick="javascript:window.location='<%= root_path %>admin/examiner_list' ">			
+	</p>
+	
+	<p>
+	
+<% end %>	
+	

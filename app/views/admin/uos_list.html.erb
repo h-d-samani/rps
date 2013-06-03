@@ -1,0 +1,28 @@
+<h1>Unit of Study list</h1>
+<p>
+<%= link_to "Back to Home", :controller=>'admin',:action =>'index' %>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr><th>Code</th><th>Name</th><th>Status</th><th>Examiner</th></tr>
+
+<% if @u %>
+	<% for @uu in @u %>
+		<tr>
+     	<td>
+     	<%= link_to @uu.ucode, :action =>'uos_edit', :uos_id=>@uu.id %>
+     	</td>
+     	<td><%= @uu.uname %></td>
+     	<td>
+     	<% if(@uu.complete== 1) %>
+     		Complete
+     	<% end %>	
+      	<% if(@uu.complete== 2) %>
+     		INC
+     	<% end %>
+ 		&nbsp; 		    	
+     	</td>
+     	<td><%= @uu.examiner.name %></td>
+     	</tr>
+	<% end %>       
+<% end %>
+</table>
+</p>

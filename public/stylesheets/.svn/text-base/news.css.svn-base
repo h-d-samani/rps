@@ -1,0 +1,361 @@
+/* Mainly contains overrides for News specific styling
+Overrides: base.css & base_external.css */
+
+#tabbar form {margin: 12px 0px 0px 0px;}
+ul#tabs {padding: 10px 0px 0px 0px;}
+#sidebar dl.feature {margin: 0px 0px 10px 0px;}
+
+div#tabbar form {
+bottom:5px;
+float:right;
+position:relative;
+right:0pt;
+}
+#tabunderscore {}
+
+#sidebar dl img { 
+	left:-7px;
+	position:relative;
+}
+
+#content table {
+background-color:#FFF;
+font-size:0.9em;
+}
+
+#content ul.news li h2 {
+font-size:1.6em;
+}
+
+#content ul.news a.more { font-weight: normal; }
+
+form input, form textarea {
+border:1px solid #CCCCCC;
+font-size:1em;
+}
+#content table th {
+background:#fff;
+border:1px solid #FFFFFF;
+font-weight:bold;
+}
+
+#content ul#featured.news li {
+padding-bottom:7px;
+}
+#content ul#latest.news li, #content ul#home.news li {
+padding-bottom:7px;
+}
+
+#menu ul li a {
+font-size:1.1em;
+font-weight:normal;
+}
+#menu ul li a #active {
+font-weight:bold;
+}
+
+
+.byline {
+font-style:italic;
+}
+.hidescreen {
+display:none;
+}
+.content img {
+border:medium none;
+}
+.navtab {
+background-color:#AB2730;
+}
+.navtab td {
+text-align:center;
+}
+.navtab a {
+color:#FFFFFF;
+font-size:10px;
+}
+.navtab-selected {
+background-color:#39638D;
+}
+.navtab-selected td {
+color:#FFFFFF;
+font-size:10px;
+text-align:center;
+}
+.navtab-selected a {
+color:#FFFFFF;
+font-size:10px;
+}
+.content {
+padding:21px 28px 0px 14px;
+text-align:left;
+vertical-align:top;
+}
+.rightbar {
+vertical-align:top;
+width:165px;
+}
+.toolbar td {
+vertical-align:middle;
+}
+.rightitem {
+border:1px solid #B4BEC7;
+width:100%;
+}
+.newslist {
+width:100%;
+}
+.newslist thead td {
+color:#718AB3;
+text-align:right;
+}
+.newslist-TH {
+color:#AB2730;
+text-align:left;
+}
+.newslist a {
+color:#090CA5;
+}
+h3 {
+color:#AB2730;
+}
+.eventlist {
+width:100%;
+}
+.eventlist thead th {
+color:black;
+font-weight:bold;
+text-align:left;
+}
+.eventlist tbody td, .eventlist tbody th {
+font-weight:normal;
+padding-top:10px;
+vertical-align:top;
+}
+.eventlist tbody td {
+white-space:nowrap;
+width:1%;
+}
+.eventlist tbody td {
+padding-right:16px;
+}
+.eventlist a {
+color:#090CA5;
+}
+.eventlist p {
+padding-left:20px;
+}
+#eventdate {
+padding-top:10px;
+}
+.search-input {
+color:#638CA8;
+padding:0px;
+width:100%;
+}
+.search-button {
+background-color:#638CA8;
+color:#FFFFFF;
+font-size:0.7em;
+padding:0px;
+}
+.error, .error li, table.form-submit sup {
+color:#FF0000;
+font-size:10px;
+white-space:nowrap;
+}
+table.form-submit sup {
+vertical-align:middle;
+}
+table.form-submit {
+width:auto;
+}
+table.form-submit td, table.form-submit th {
+padding:3px;
+vertical-align:top;
+}
+table.form-submit th {
+white-space:nowrap;
+width:1%;
+}
+table.form-submit tfoot td {
+text-align:right;
+}
+.instruction {
+font-size:0.8em;
+}
+#maintable {
+width:980px;
+}
+.captionTable {
+margin:5px 10px;
+}
+.captionImage img {
+border:0pt none;
+margin:0pt;
+padding:0pt;
+}
+.captionCaption {
+background-color:#D7E0EF;
+color:#39638D;
+font-family:Arial,Helvetica,sans-serif;
+font-size:90%;
+font-weight:normal;
+margin-left:5px;
+margin-right:5px;
+padding:5px;
+text-align:center;
+text-decoration:none;
+}
+#sidebar div.calendar { 
+	margin-bottom: 8px;
+	position: relative;
+}
+#sidebar div.calendar h1 { 
+	text-align: center; 
+	color: white; 
+	background-color: #eeb516; 
+	font-size: 1.3em; 
+	font-weight: normal;
+	padding: 0.2em 0;
+	width: 100%;
+}
+
+#sidebar div.calendar .nav { 
+	background-color: white; 
+	display: block; 
+	width: 1.5em; 
+	height: 1.2em; 
+	position: absolute; 
+	top: 5px;	
+	text-align: center;
+	font-weight: bold;
+}
+
+#sidebar div.calendar #prev.nav { left: 5px; }
+#sidebar div.calendar #next.nav { right: 5px; }
+
+
+#sidebar div.calendar table { width: 100%; }
+#sidebar div.calendar table th { font-size: 0.9em; font-weight: normal; }
+#sidebar div.calendar table td { 
+	background-color: #fbf6d8; 
+	font-size: 1.0em; 
+	text-align: center; 
+	font-weight: normal; 
+	padding: 0.2em;	
+}
+#content h2 .date {
+font-size:0.8em;
+font-weight:normal;
+letter-spacing:0px;
+margin-left:0.5em;
+}
+#content ul.news li a {
+color:#33C;
+}
+
+#sidebar div.calendar table td a { text-decoration: underline; font-size: 1.0em; }
+#sidebar div.calendar table td a.today { text-decoration: underline; font-weight: bold; }
+#sidebar div.calendar form { margin: 5px; }
+#sidebar div.calendar form select { margin-right: 6px; }
+.next-month { display:none}
+#calendar {
+background-color:white;
+border:1px solid #F5CB75;
+margin-bottom:8px;
+width:188px;
+}
+.calendar table {
+border-collapse:separate;
+border-spacing:2px;
+width:100%;
+}
+.calendar td {
+background-color:#FBF6D8;
+font-size:9px;
+height:20px;
+text-align:center;
+width:14%;
+}
+.calendar th {
+font-size:9px;
+font-weight:normal;
+text-align:center;
+text-transform:uppercase;
+}
+.calendar div.header div {
+font-size:12px;
+padding:3px;
+text-align:center;
+}
+.calendar .prev-nav {
+background-color:white;
+color:blue;
+cursor:pointer;
+font-size:8px !important;
+font-weight:bold;
+left:3px;
+padding:1px !important;
+position:absolute;
+top:3px;
+}
+.calendar .next-nav {
+background-color:white;
+color:blue;
+cursor:pointer;
+font-size:8px !important;
+font-weight:bold;
+padding:1px !important;
+position:absolute;
+right:3px;
+top:3px;
+}
+.calendar .next-nav-disabled, .calendar .prev-nav-disabled {
+display:none;
+}
+.calendar td.prev-month, .calendar td.next-month {
+background-color:white !important;
+}
+.calendar td.hasFunc {
+cursor:pointer;
+text-decoration:underline;
+color:blue;
+}
+.calendar td.today {
+font-weight:bold;
+}
+.calendar td.disabled {
+color:#666 !important;
+}
+.calendar div.header {
+background-color:#EEB516;
+color:#FFFFFF;
+position:relative;
+}
+div.calfrm {
+margin:5px;
+}
+div.calfrm * {
+font-size:9px;
+}
+div.calfrm select {
+border:1px solid #AA2631;
+color:#540000;
+margin-right:5px;
+}
+div.calfrm select option {
+color:#540000;
+}
+div.calfrm input {
+background-color:#AA2631;
+color:#FFFFFF;
+padding:0px;
+}
+table.eventnav {
+width:100%;
+}
+table.eventnav td, table.eventnav a {
+color:blue;
+font-size:9px;
+}

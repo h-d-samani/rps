@@ -1,0 +1,20 @@
+      <div id="foot">
+        <div class="f2"></div>
+        <div class="f1"></div>
+        <div class="f0"></div>
+        <div class="foot-content">
+          <%= link_to(image_tag('/images/common/logo_groupof8.gif', :alt => "A member of Group of Eight", :name => "g8logo", :width => "159", :height => "46", :border => "0", :id => "g8logo"), "http://www.go8.edu.au/") %>
+          <p>
+            &copy; 2002 – 2008 The University of Sydney, NSW 2006 Australia. <strong>Phone:</strong>&nbsp;+61&nbsp;2&nbsp;9351&nbsp;2222. <strong>ABN:</strong>&nbsp;15&nbsp;211&nbsp;513&nbsp;464 <strong>CRICOS&nbsp;Number:</strong>&nbsp;00026A Authorised by: Deputy Vice-Chancellor (Research)
+          </p>
+          <p>
+            <strong>Authorised&nbsp;by:</strong>&nbsp;Director, Community Engagement. <strong>Last&nbsp;Updated:</strong>&nbsp;08-Jan-2008
+          </p>
+          <p id="foot-links">
+            <a href="/contact.shtml">Contacts</a> | <a href="/sitemap.shtml">Sitemap</a> | <a href="/jobs/index.shtml">Jobs</a> | <a href="http://www.library.usyd.edu.au">Library</a> | <a href="/disclaimer.shtml">Disclaimer</a> | <a href="/privacy.shtml">Privacy Statement</a>
+          </p>
+        </div>
+        <div class="f0"></div>
+        <div class="f1"></div>
+        <div class="f2"></div>
+      </div>

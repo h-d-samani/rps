@@ -1,0 +1,440 @@
+/*** TEASERS aka FEATURES aka BANNERS ***/
+
+#sidebar dl.feature #start { 
+
+	background-image: url(/images/content/cws/front/banners/start_STACKED.jpg);
+
+}
+
+#sidebar dl.feature #medievalbanquet { 
+
+	background-image: url(/images/content/cws/front/banners/medieval_banquet_STACKED.jpg);
+
+}
+
+#sidebar dl.feature #stayontrack { 
+
+	background-image: url(/images/content/cws/front/banners/stay_on_track_STACKED.JPG);
+
+}
+
+#sidebar dl.feature #joinyour { 
+
+	background-image: url(/images/content/cws/front/banners/join_your_STACKED.jpg);
+
+}
+
+
+#sidebar dl.feature #swot { 
+
+	background-image: url(/images/content/cws/front/banners/swot_2007_STACKED.jpg);
+
+}
+
+
+
+#sidebar dl.feature #support {
+
+	background-image: url(/images/content/cws/front/banners/support_sydney.jpg);
+
+}
+
+
+
+#sidebar dl.feature #disability {
+
+	background-image: url(/images/content/cws/front/banners/disability_services_STACKED.jpg);
+
+}
+
+
+
+#sidebar dl.feature #servicesforstudents {
+
+	background-image: url(/images/content/cws/front/banners/services_for_students.jpg);
+
+}
+
+#sidebar dl.feature #studenthandbooks {
+
+	background-image: url(/images/content/cws/front/banners/student_handbooks.jpg);
+
+}
+
+
+
+#sidebar dl.feature #registeryourinterest {
+
+	background-image: url(/images/content/cws/front/banners/undergrad_register_your_interest_STACKED.jpg);
+
+}
+
+
+
+#sidebar dl.feature #whatssydneyunilifelike {
+
+	background-image: url(/images/content/cws/front/banners/whatssydneyunilifelike_STACKED.jpg);
+
+}
+
+
+
+#sidebar dl.feature #statidamino {
+
+	background-image: url(/images/content/cws/front/banners/statidamino.gif);
+
+}
+
+
+
+#sidebar dl.feature #sydneyscienceforum {
+
+	background-image: url(/images/content/cws/front/banners/sydneyscienceforum.gif);
+
+}
+
+
+
+#sidebar dl.feature #advocateforpeace {
+
+	background-image: url(/images/content/cws/front/banners/advocateforpeace.gif);
+
+}
+
+
+
+#sidebar dl.feature #findoutmore {
+
+	background-image: url(/images/content/cws/front/banners/find_out_more_STACKED.jpg);
+
+}
+
+#sidebar #strugglingfinancially.graphic-teaser {
+	background-image: url(/images/content/cws/front/banners/struggling_financially.jpg);
+}
+
+#sidebar #stayontrack.graphic-teaser {
+
+	background-image: url(/images/content/cws/front/banners/stay_on_track_STACKED.JPG);  
+
+}
+
+
+#sidebar #exhibitionsinterviews.graphic-teaser {
+
+	background-image: url(/images/content/cws/front/banners/exhibition_interviews.jpg);  
+
+}
+
+
+
+#sidebar #overseasevents.graphic-teaser {
+
+	background-image: url(/images/content/cws/front/banners/overseas_events.jpg);  
+
+}
+
+
+
+#sidebar #studenthandbooks.graphic-teaser {
+
+	background-image: url(/images/content/cws/front/banners/student_handbooks.jpg);  
+
+}
+
+
+
+#sidebar #uniblog.graphic-teaser {
+
+	background-image: url(/images/content/cws/front/banners/sydney_life_blog.jpg);  
+
+}
+
+
+
+#sidebar #servicesforstudents.graphic-teaser {
+
+	background-image: url(/images/content/cws/front/banners/services_for_students.jpg);
+
+}
+
+
+
+#sidebar #servicesforstudents-stacked.graphic-teaser {
+
+	background-image: url(/images/content/cws/front/banners/services_for_students_STACKED.jpg);
+
+}
+
+
+
+#sidebar #lifeatsydney.graphic-teaser {
+
+	background-image: url(/images/content/cws/front/banners/life_at_sydney.jpg);
+
+}
+
+
+
+#sidebar #localstudents.graphic-teaser {
+
+	background-image: url(/images/content/cws/front/banners/future_local_students.jpg);
+
+}
+
+
+
+#sidebar #midyearentry.graphic-teaser {
+
+	background-image: url(/images/content/cws/front/banners/mid_year_entry.jpg);
+
+}
+
+
+
+#sidebar #makeagift.graphic-teaser {
+
+	background-image: url(/images/content/cws/front/banners/make_a_gift.jpg);
+
+}
+
+
+
+#sidebar #phonebook.graphic-teaser {
+
+	background-image: url(/images/content/cws/front/banners/phonebook.jpg);
+
+}
+
+#sidebar #support.graphic-teaser {
+
+	background-image: url(/images/content/cws/front/banners/news_about_cms.jpg);
+
+}
+
+
+
+#sidebar #pgopennights.graphic-teaser {
+
+	background-image: url(/images/content/cws/front/banners/open_nights_expo.jpg);
+
+}
+
+
+
+#sidebar #postgradinfoweek.graphic-teaser {
+
+	background-image: url(/images/content/cws/front/banners/postgrad_infoweek.jpg);
+
+}
+
+
+
+#sidebar #forresearchers.graphic-teaser {
+
+	background-image: url(/images/content/cws/front/banners/forresearchers.jpg);
+
+}
+
+
+
+#sidebar #researchinnovation.graphic-teaser {
+
+	background-image: url(/images/content/cws/front/banners/research_innovation.jpg);
+
+}
+
+
+
+#sidebar #researchoffice.graphic-teaser {
+
+	background-image: url(/images/content/cws/front/banners/research_office.jpg);
+
+}
+
+
+
+#sidebar #researchfellowships.graphic-teaser {
+
+	background-image: url(/images/content/cws/front/banners/researchfellowships.jpg);
+
+}
+
+
+
+#sidebar #researchqualityframework.graphic-teaser {
+
+	background-image: url(/images/content/cws/front/banners/researchqualityframework.jpg);
+
+}
+
+
+#sidebar #researchscholarships.graphic-teaser {
+
+	background-image: url(/images/content/cws/front/banners/research_scholarships.jpg);
+
+}
+
+
+#sidebar #internationalstudents.graphic-teaser {
+
+	background-image: url(/images/content/cws/front/banners/future_intl_students.jpg);
+
+}
+
+
+
+#sidebar #internationalenquiries.graphic-teaser {
+
+	background-image: url(/images/content/cws/front/banners/international_enquiries.jpg);
+
+}
+
+
+
+#sidebar #virtualtour.graphic-teaser {
+
+	background-image: url(/images/content/cws/front/banners/virtual_tours.jpg);
+
+}
+
+
+
+#sidebar #newsletter.graphic-teaser {
+
+	background-image: url(/images/content/cws/front/banners/intl_newsletters.jpg);
+
+}
+
+
+
+#sidebar #findanexpert.graphic-teaser {
+
+	background-image: url(/images/content/cws/front/banners/findanexpert.gif);
+
+}
+
+
+
+#sidebar #uniinthemedia.graphic-teaser {
+
+	background-image: url(/images/content/cws/front/banners/uniinthemedia.gif);
+
+}
+
+
+
+#sidebar #internationalnews.graphic-teaser {
+
+	background-image: url(/images/content/cws/front/banners/intl_news.jpg);
+
+}
+
+
+
+#sidebar #seymourcentre.graphic-teaser {
+
+	background-image: url(/images/content/cws/front/banners/seymourcentre.gif);
+
+}
+
+
+
+#sidebar #podcast.graphic-teaser {
+
+	background-image: url(/images/content/cws/front/banners/podcast.gif);
+
+}
+
+#sidebar #campus2010.graphic-teaser {
+
+	background-image: url(/images/content/cws/front/banners/banners_campus_2010.jpg);
+
+}
+
+#sidebar #swot.graphic-teaser {
+
+	background-image: url(/images/content/cws/front/banners/swot_2007.jpg );
+
+}
+
+#sidebar #phdopportunities.graphic-teaser {
+
+	background-image: url(/images/content/cws/front/banners/phd_opportunities.jpg );
+
+}
+
+#sidebar #studentcards.graphic-teaser {
+
+	background-image: url(/images/content/cws/front/banners/student-cards-banner.jpg);
+
+}
+
+#sidebar #sydneyunilive.graphic-teaser {
+	background-image: url(/images/content/cws/front/banners/live07.jpg);
+}
+
+#sidebar #germanyinnovations.graphic-teaser { 
+	background-image: url(/images/content/cws/front/banners/germany_innovations.jpg);
+}
+
+#sidebar #honoursinfoweek.graphic-teaser { 
+	background-image: url(/images/content/cws/front/banners/honours_info_week.jpg);
+}
+
+#sidebar #applyinginterstate.graphic-teaser { 
+	background-image: url(/images/content/cws/front/banners/applying_from_interstate.jpg);
+}
+
+#sidebar #infoevening.graphic-teaser { 
+	background-image: url(/images/content/cws/front/banners/info_even_melbourne.jpg);
+}
+
+#sidebar #summerschool.graphic-teaser { 
+	background-image: url(/images/content/cws/front/banners/summer_school.jpg);
+}
+
+#sidebar #phdopportunities.graphic-teaser { 
+	background-image: url(/images/content/cws/front/banners/phd_opportunities.jpg);
+}
+
+#sidebar #studentaccommodation.graphic-teaser { 
+	background-image: url(/images/content/cws/front/banners/student_accommodation.jpg);
+}
+
+#sidebar #myhronline.graphic-teaser { 
+	background-image: url(/images/content/cws/front/banners/myHRonline.jpg);
+}
+
+#sidebar #alumnireunion.graphic-teaser { 
+	background-image: url(/images/content/cws/front/banners/alumni_reunion.jpg);
+}
+
+#sidebar #strugglingacademically.graphic-teaser { 
+	background-image: url(/images/content/cws/front/banners/struggling_academically.jpg);
+}
+
+#sidebar #strategicPlan.graphic-teaser {
+	background-image: url(/images/content/cws/front/banners/strategic_plan.jpg);
+}
+
+#sidebar #infoday.graphic-teaser {
+	background-image: url(/images/content/cws/front/banners/info_day_2008.jpg);
+}
+#sidebar #swotnew.graphic-teaser { 
+	background-image: url(/images/content/cws/front/banners/swot.jpg);
+}
+
+
+#sidebar a.graphic-teaser { 
+	width: 177px; 
+	height: 43px;
+	letter-spacing: -2000em; 
+	overflow: hidden;
+	color: transparent;
+	font-size: -1px;
+	display: block;
+	padding-bottom: 10px; 
+	background-repeat: no-repeat;
+	background-position: left top;
+}

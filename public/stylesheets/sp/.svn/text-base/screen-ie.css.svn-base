@@ -1,0 +1,22 @@
+/* IE (all version) fixes */
+body { padding: 0 497px; }
+ul { margin-bottom: 0.5em; }
+#head ul#nav-home a span.button { filter:alpha(opacity=80); }
+
+
+form input.field { font-size: 1.1em; height: 1.5em; }
+form select { font-size: 1.1em; }
+
+form select {	height: 1.7em; }
+form input.button { margin-bottom: 1px; }
+#sidebar dl.teaser dd ul { padding-bottom: 10px;}
+
+#content .heading-links { padding-top: 0.6em; }
+#content .news-item h2 { font-size: 1.7em; }
+#content form.boxed { width: 31em; }
+/*#content form.boxed input { border: none; }*/
+#content ul#visitors-content h2 { margin-top: 3px; }
+#content dl#visitors-index li { margin-left: 16px; }
+
+.foot-content { padding-top: 10px; }
+1

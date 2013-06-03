@@ -1,0 +1,36 @@
+/* IE (all version) fixes */
+body { padding: 0 497px; }
+ul { margin-bottom: 0.5em; }
+#head ul#nav-home a span.button { filter:alpha(opacity=80); }
+
+/*form input.field { font-size: 1.1em; height: 1.5em; }*/
+input.field { font-size: 1.1em; height: 1.5em; }
+/*form select {	height: 1.7em; font-size: 1.1em; }*/
+select {	height: 1.7em; font-size: 1.1em; }
+/*form input.button { margin-bottom: 1px; }*/
+input.button { margin-bottom: 1px; }
+
+div#tabbar { margin-bottom: 0px ; margin-top: 0px; padding: 0px ; }
+#sidebar dl.feature dd ul { padding-bottom: 10px;}
+
+#sidebar ul li {
+list-style:url(../images/common/list-item-grey_caret.gif) 2px 3px;
+}
+
+#content .heading-links { padding-top: 0.6em; }
+#content .news-item h2 { font-size: 1.7em; }
+#content form.boxed { width: 31em; }
+/*#content form.boxed input { border: none; }*/
+#content ul#visitors-content h2 { margin-top: 3px; }
+#content dl#visitors-index li { margin-left: 16px; }
+.foot-content { padding-top: 10px; }
+.subspcr {line-height:1px; height:1px; padding:0px; display:none}
+.searchItem {margin-top:0px;}
+
+
+ul#tabs ul li a, ul#tabs li.active ul li a {
+	width:94.9%;
+	padding:4px 2.5%;
+}
+
+ul li { list-style: url(../images/common/list-item-square-ie.gif); } 

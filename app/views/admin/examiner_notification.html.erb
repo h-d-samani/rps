@@ -1,0 +1,26 @@
+<h1>Examiner Email Notification</h1>
+
+<style>
+select.multiRows {
+	height:15em;
+}
+</style>
+
+<% form_tag do %>
+	<table border="0">
+	<tr><td>
+		Examiner:
+	</td><td>	
+		<%= collection_select("login", "id" , @e, "id", "name", {},{:size =>5,:class=>"multiRows",:multiple=>"multiple"}) %>
+	</td>
+	
+	<tr><td>
+		<%= submit_tag "Submit" %>
+	</td><td>	
+		<input type=button value="Back" onClick="javascript:window.location='<%= root_path %>admin' ">			
+	</td>
+	</tr>
+	</table>
+	
+	</p><br><br>
+<% end %>	

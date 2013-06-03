@@ -1,0 +1,42 @@
+<h1>System Configuration</h1>
+<p>
+<style>
+#content table { background-color:#d6d6d6; }
+</style>
+<% form_tag do %>
+<table>
+<tr><td>	
+	
+		<label for="semester">Semester:</label> </td><td>
+		<%= text_field_tag :semester, @semester %>
+	
+</td></tr>
+<tr><td>	
+	
+		<label for="year">Year:</label> </td><td>
+		<%= text_field_tag :year, @year %>
+	
+</td></tr>
+<tr><td>	
+	
+		<label for="email">Email template:</label></td><td>
+		<%= text_area_tag :email, @email,  :rows => 30, :cols => 80 %>
+	
+</td></tr>
+<tr><td>	
+	
+		<label for="email">Email signature:</label></td><td>
+		<%= text_area_tag :signature, @signature,  :rows => 10, :cols => 80 %>
+	
+</td></tr>
+</table>	
+</p>	
+<p>	
+		<%= submit_tag "Submit" %></td><td>
+		<input type=button value="Back" onClick="javascript:window.location='<%= root_path %>admin/' ">			
+	
+	
+</p>
+	
+<% end %>	
+</p>

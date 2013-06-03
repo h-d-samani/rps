@@ -1,0 +1,351 @@
+/* search */
+
+
+.searchBoxDiv{
+	text-align:right;
+	float:left;
+	margin-top: -2px;
+}
+
+.searchTable{
+	background-color: #184674;
+	width: 170px;
+}
+
+#goButton{
+
+}
+
+.searchBox#courseSearch{
+	width: 215px;
+	float: left;
+}
+
+#courseList {
+	font-size:100%;
+}
+
+.couseSearchTable td {
+	padding-top:10px;
+	margin-top:10px;
+}
+
+.searchForm{
+	margin-top:5px;
+	margin-bottom:0px;
+}
+
+.frontPageSearchDiv{
+	background-color: #39628B;
+	height: 28px;
+	width: 194px;
+	margin: 0 0 0 0;
+	padding: 5px 0 0 0;
+}
+
+.frontPageSearchDiv#front {
+	background-color:#184674;
+	width: 100%;
+	height: 28px;
+	text-align: left;
+}
+
+
+.searchButton{
+	text-align:left;
+	width: 44;
+	margin-top: -2px;
+}
+
+
+
+/* front page middle content table  */
+
+td.middle{
+	text-align:center
+}
+
+
+/* front page middle title bar  */
+
+td.frontPage_MidTitleBar  {
+	background-color:#39628B;
+	color: #EEB211;
+}
+
+/* front page middle content table  */
+
+.frontPage_MidContentTitle{
+	color: #781017;
+
+}
+
+.frontPage_MidContentTitle a, .frontPage_MidContentTitle a:visited, .frontPage_MidContentTitle a:hover, .frontPage_MidContentTitle a:focus, .frontPage_MidContentTitle a.rollover, .frontPage_MidContentTitle a.rollover:visited {
+	text-decoration: none;
+	color: #781017;
+	width: 120px;
+	height:20px;
+	}
+
+.frontPage_MidContentContent{
+	font-size:75%;
+	padding-top: 5px;
+}
+
+
+/* frontPage leftside menus */
+
+.leftMenu {
+	background-color: #39628B;
+}
+
+td.frontPageLeftMenuTitle {
+	background-color:#39628B;
+}
+
+td.frontPageLeftMenuTitle a, td.frontPageLeftMenuTitle a:visited, td.frontPageLeftMenuTitle a:hover, td.frontPageLeftMenuTitle a:focus, td.frontPageLeftMenuTitle a.rollover, td.frontPageLeftMenuTitle a.rollover:visited {
+	color: #EEB211;
+	}
+
+
+td.frontPageLeftMenuTitle#headerMenu {
+}
+
+.frontPageLeftMenu {
+	background-color: #39628B;
+}
+
+/* front Page quick links */	
+.frontPageQLinks	{
+	background-color:#122E4B;
+	color:#FFFFFF;
+	border-width: 1px;
+	border-color:#716F64
+}
+.frontPageQLinksTable{
+	background-color: #39628B;
+	height: 33px;
+	width: 100%;
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+
+}
+
+/* frontPage right menus */
+.frontPageRightMenuTable{
+	margin-top:25px;
+}
+
+
+td.frontPageRightProfileTitle {
+	background-color: #39628B;
+	height:33px;
+	color: #EEB211;
+	font-style: normal;
+	text-align: left;
+	padding-left: 10px;
+	font-size: 75%;
+	font-weight: bold;
+}
+
+td.frontPageRightProfileTitle a:hover, td.frontPageRightProfileTitle a:focus, td.frontPageRightProfileTitle a.rollover, td.frontPageRightProfileTitle a.rollover:visited {
+	color: #EEB211;
+	}
+td.frontPageRightProfileTitle a, td.frontPageRightProfileTitle a:visited {
+	text-decoration: none;
+	color: #EEB211;
+	}
+
+.frontPageRightProfile {
+	background-color: #CDD8E2;
+	font-size: 70%;
+	color: #184674;
+	font-style: normal;
+	text-align: left;
+	margin-top: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 3px;
+	padding-bottom: 5px;
+}
+
+ul.frontPageRightProfile li{
+	list-style-image:url(../images/content/cws/front/newPages/frontPage_bpoint.gif);
+	padding-bottom: 3px;
+}
+ul.frontPageRightProfile li a, ul.frontPageRightProfile li a:visited {
+	color: #993333;
+	}
+	
+ul.frontPageRightProfile li	a:hover, ul.frontPageRightProfile li a:focus, ul.frontPageRightProfile li a.rollover, ul.frontPageRightProfile li a.rollover:visited {
+	text-decoration:none
+}
+
+.frontPageRightProfile img{
+	border:0px;
+	margin-left:0px;
+	margin-right:7px;
+	margin-bottom:3px;
+	display: block;
+	float: left;
+	margin-top: 3px;
+}
+
+
+/* for staff pages */
+.frontPageRightMenuTableStaff{
+	margin-top:10px;
+}
+
+td.frontPageRightProfileStaff{
+	background-color: #CDD8E2;
+	padding-top: 0px;
+	padding-left: 1px;
+	padding-right: 1px;
+	padding-bottom: 1px;
+}
+
+.staffLinks {
+	padding-left: -15px;
+	padding-right: 5px;
+	padding-bottom: 0px;
+	background-color:#FFFFFF;
+	text-align: left;
+	font-weight:bold;
+	font-size: 90%;
+	color: #184674;
+	font-style: normal;
+	text-align: left;
+
+}
+
+td.frontPageRightProfileTitle#staff {
+	padding-left: 10px;
+	font-size: 90%;
+
+}
+
+.frontPageRightStaffList{
+	padding-top: 0px;
+	margin-left: -5px;
+	padding-left: 10px;
+	list-style: none;
+}
+.frontPageRightStaffList li {
+	padding-top: 5px;
+}
+
+ul.frontPageRightStaffList li a, ul.frontPageRightStaffList li a:visited {
+	text-decoration:none;
+	color: #184674;
+	}
+
+ul.frontPageRightStaffList li a:hover, ul.frontPageRightStaffList li a:focus, ul.frontPageRightStaffList li a.rollover, ul.frontPageRightStaffList li a.rollover:visited {
+	text-decoration:none
+	color: #184674;
+}
+
+
+
+/*   ####    front page footer    ###   */
+.frontPageFooter{
+	width:788px;
+	height: 82px;
+}
+/*   ####    front page footer    ###   */
+.frontPageFooterText{
+	background-color:#184674;
+	background-image:url(../images/content/cws/front/newPages/frontPage_footer_bg_blue.gif);
+	background-repeat:no-repeat;
+}
+
+.frontPageFooterText a,  .frontPageFooterText a:visited{
+	text-decoration: none;
+	color: #FFFFFF;
+}
+	
+.FindCourse {
+	background-color: #781017;
+	height: 35px;
+}
+
+.frontPage_MidContentTable .courseSearchNote{
+font-size: 90%;
+padding-top: 5px;
+
+}
+
+
+.fronPageBanner {
+	margin-top: 10px;
+}
+
+/*  top global nav div  */
+.topGlobal {
+	background-color: #EEB311;
+	text-align: center;
+	vertical-align: middle;
+	display: block;
+	font-size: 10px;
+	width: 250px;
+	position: absolute;
+	left: 536px;
+	top: 0px;
+	height: 18px;
+	padding-top: 3px;
+	color: #781017;
+}
+
+.topGlobal a, .topGlobal a:visited {
+	text-decoration: none;
+	color: #AB2730;
+	}
+	
+.topGlobal	a:hover, .topGlobal a:focus, .topGlobal a.rollover, .topGlobal a.rollover:visited {
+	color: #FFFFFF;
+	}
+
+/* landing Pages content  */
+
+.landingContent {
+	text-align:left;
+	width: 100%;
+}
+
+.landingContent ul {
+	list-style: none;
+	margin-left: 10px;
+	padding-left: 10px;
+	font-size: 75%;
+}
+.landingContent ul li {
+	margin-top: 10px;
+}
+
+.landingContent ul li a, .landingContent ul li a:visited{
+	background-repeat:no-repeat;
+	vertical-align:middle;
+	color: #781017;
+	font-weight: bold;
+	text-align: left;
+	font-size: 110%;
+}
+
+.landingContent table.frontPage_MidTitleBar {
+	height: 33px;
+}
+
+.topYellowBar{width:788px; height:7px; background-color:#EEB311; font-size:1px;}
+div.subheader {padding:0px}
+.subheader div {float: left;position: relative; margin-left:10px; }
+.subheader h2 {vertical-align: middle;text-align: left;font-size: 90%;padding: 3px 26px 3px 6px;margin:0;width: auto;}
+.subline {clear:both;height:1px; line-height:1px; width:100%;}
+.subspcr {clear:both;display: block;}
+#content>div.subspcr{height:1px;} 
+.superspcr {clear:both;display:block;padding-top:0px !important;padding-top:15px;}
+#content>div.superspcr{height:15px;} 
+.wt {background-image:url(../images/nav/cws/wt.gif); background-position:top right; background-repeat:no-repeat;}
+.subheader div {background-color: #AB2730}
+.subheader h2 {color: #FFF}
+.subheader a {color: #FFF}
+

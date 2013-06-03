@@ -1,0 +1,58 @@
+/* HEADER */
+.role {background-color:#39638B;background-image:url(/images/nav/cws/top_banner_in02.gif); }
+.title {color:#FFFFFF;background-color: #39638B}
+.breadcrumb, .breadcrumb a , .global a , .search {color: #AB2830}
+.qlinks {color:#39628B;display: inline}
+input.search {color: #AB2830; background: #FFFFFF; border: 1px solid #CC6}
+input.submit {border: 1px solid #AB2830;background-color: #F4C72D;color: #AB2830}
+
+/* TAB NAVIGATION */
+ul.horizontal a, 
+ul.horizontal a:visited {color: #FFF;background-color :#39638B}
+ul.horizontal ul {border: 1px solid #F0C000}
+#tabin ul a, 
+#tabin ul a:visited,
+ul.horizontal ul a, 
+ul.horizontal ul a:visited {color: #39638B;background-color: #FFFFFF}
+ul.horizontal a:hover, 
+ul.horizontal a:focus, 
+ul.horizontal a.rollover, 
+ul.horizontal a.rollover:visited {color:#AB2730;background-color :#F0C000}
+#tabin ul a:hover, 
+#tabin ul a:focus, 
+#tabin ul a.rollover, 
+#tabin ul ul a.rollover:visited,
+ul.horizontal ul a:hover, 
+ul.horizontal ul a:focus, 
+ul.horizontal ul a.rollover, 
+ul.horizontal ul a.rollover:visited {color: #AB2830;background-color: #F0C000}
+#tabin a {color:#FFFFFF;background-color:#6895C1;font-weight: bold}
+#tabin a:hover{color: #F0C000}
+.bluspcr {clear:both;background-color:#6895C1;height:1px;line-height:1px}
+
+/* MENUS*/
+#menucol{background-color: #39638B}
+ul.dynamic a, ul.dynamic a:visited {color:#FFFFFF;background-color:#39638B}
+ul.dynamic ul a, ul.dynamic ul a:visited {color:#FFFFFF;background-color:#39638B}
+ul.dynamic a:hover, ul.dynamic a:focus, ul.dynamic a.rollover, ul.dynamic a.rollover:visited {color:#FFFFFF;background-color:#6895C1}
+ul.dynamic ul a:hover, ul.dynamic ul a:focus, ul.dynamic ul a.rollover, ul.dynamic ul a.rollover:visited {color:#39638D;background-color: #F2F2F2}
+/* Static classes */
+li.static ul li {color: #FFFFFF}
+li.static a, li.static a:visited {color: #FFFFFF;background-color: #6895C1}
+li.static ul li a, li.static ul li a:visited {color: #FFFFFF;background-color: #6895C1}
+li.static a:hover, li.static a:active, li.static a:focus, li.static a.rollover, li.static a.rollover:visited {color: #FFFFFF;background-color: #6895C1}
+li.static ul li a:hover, li.static ul li a:focus, li.static ul li a.rollover, li.static ul li a.rollover:visited {color: #FFFFFF;background-color: #BED1E4}
+
+/* CONTENT */
+#content h1 {color: #39638D}
+#content hr {color: #AB2730;background-color: #AB2730}
+/* Subheaders */
+.subheader div {background-color: #AB2730}
+.subheader h2 {color: #FFF}
+.subheader a {color: #FFF}
+
+/* FEATURE TABLE and ITEMS*/
+#feature {background-color: #FFFFFF}
+.featureitem {border: 1px solid #b4bec7}
+.featureitem h3 {color: #39638d;background-color: #d7e0ef}
+.featureitem noborder {border: 0 none white}

@@ -1,0 +1,43 @@
+10
+
+dir
+36
+svn+ssh://roses@agile-svn.ucc.usyd.edu.au/var/svn/repos/rps/trunk/tmp
+svn+ssh://roses@agile-svn.ucc.usyd.edu.au/var/svn/repos/rps
+
+
+
+2008-06-10T04:26:53.628654Z
+5
+zzilei
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+679a06a8-a203-4dc2-ac79-9b8e63144da9
+
+cache
+dir
+
+sessions
+dir
+
+attachments
+dir
+
+sockets
+dir
+
+pids
+dir
+

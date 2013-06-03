@@ -1,0 +1,82 @@
+
+<h1>Results Processing System</h1>
+<br><br>
+<A HREF="<%= root_path %>login/login"><h2>Back</h2></a>
+<p>
+
+<table border=0 cellpadding=5>
+    <tr valign=top>
+	<td>
+	<h5><a name="b">Before you begin</a></h5></td>
+	<td><p>Before you begin you will need to know your login name and
+	password for this system.  They will be supplied to you once the results
+	files are available for the Units of Study you are marking.</p>
+	<p>Do not allow anyone to have your password for any reason, and be sure to
+	keep it in a secure place if you need to write it down.  If you can't
+	remember your password, please <a href="<%= root_path %>login/password/">click here</a>. 
+
+	<p>Your login and password allow you 
+	access only to the units of study you are marking.  No-one else can gain
+	access to read or amend the results you
+	record.</p> </td>
+    </tr>
+     
+    <tr valign=top>
+	 <td><hr></td>
+     </tr>
+     
+    <tr valign=top>
+	<td><h5><a name="h">How the system works</a></h5></td>
+	<td><p>This system allows you, the examiner, to enter the results for the
+	various units of study you are marking as the results become available to
+	you.  When you are done the results sheet is emailed to you for printing,
+	signing and dating.  This printed copy will be used as the official final
+	results sheet for the unit of study!  Once you have signed and dated it
+	please deliver it to the Student
+	Administration Office (level 4)</p>
+	
+		
+ <tr valign=top>
+	 <td><hr></td>
+     </tr>
+     
+    <tr valign=top>
+	<td><h5><a name="i">Instructions</a></h5></td>
+	<td><ol>
+	    <li>Click the Login button and then type your login and password into the form at the top of this 
+	    page and click "Submit". A new page with a list of 
+	    your UoS will be displayed, listing files to be completed separately 
+	    from those with INC results to be converted, and those which are 
+	    complete.
+	    
+	    <p><li>Click the link to the UoS you wish to mark and the results sheet 
+	    for that UoS will be displayed.
+	    <p><li>The list of students for the unit of study will be displayed sorted in
+	    alphabetical order by last name.  Enter the results and grades as required. 
+	    If you only have some of the results then just enter those and click the
+	    "Save" button at the bottom of the page. You can return to this set of results 
+	    and add more at a later date.
+	    <p><li>Once you have entered all results for the unit of study click "Finish".  This will cause several things
+	    to happen!  The results file will be emailed to you, it will be displayed
+	    on screen  (do not print this!) and the fact that you are finished will be flagged to the sysadmin by email.  
+	    Your access to the file will be withdrawn at this point unless it 
+	    contains INC results (see below)
+	    <p><li>When you receive the emailed results file you can choose to print 
+	    it from the email as is or copy the data and paste it
+	    into a spreadsheet (most of you will use MS Excel)
+	    <p><li>Print the spreadsheet (or email), sign and date it and deliver it to Student
+	    Administration.
+	</ol>
+	
+	<p><b><tt>If the file contains INC results</b> it will stay on the system 
+	    but you will only be able to edit the results which need converting. 
+	    Please convert these as soon as the results are avilable to you, 
+	    print, sign and date and deliver to Student Administration as with 
+	    all other results sheets.</tt></p>
+		
+	
+	</td>
+    </tr>
+    
+    </table>
+

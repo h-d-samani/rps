@@ -1,0 +1,58 @@
+10
+
+dir
+36
+svn+ssh://roses@agile-svn.ucc.usyd.edu.au/var/svn/repos/rps/trunk/vendor/rails/activerecord/test/connections
+svn+ssh://roses@agile-svn.ucc.usyd.edu.au/var/svn/repos/rps
+
+
+
+2008-05-01T05:11:44.753543Z
+1
+zzilei
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+679a06a8-a203-4dc2-ac79-9b8e63144da9
+
+native_sqlite
+dir
+
+native_frontbase
+dir
+
+native_postgresql
+dir
+
+native_sqlite3
+dir
+
+native_mysql
+dir
+
+native_oracle
+dir
+
+native_firebird
+dir
+
+native_sybase
+dir
+
+native_db2
+dir
+
+native_openbase
+dir
+

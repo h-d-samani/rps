@@ -1,0 +1,53 @@
+/* IE Hacks included using conditionals */
+
+/* HEADER */
+
+/* TAB NAVIGATION */
+* html ul.horizontal li { position:static; }
+* html ul.horizontal a { position:relative; }
+ul[class^="horizontal"] ul { display:none; }
+ul[class^="horizontal"] ul { displa\y:block; }
+
+.tabimgrght {right:-1px;}
+
+/* MAIN TABLE */
+
+/* MENUS*/
+@media screen, projection {
+	* html ul.dynamic li {
+		display:inline; 
+		f\loat:left; 
+		background-color:#ffffff; 
+		}
+	}
+* html ul.dynamic li { position:static; }
+* html ul.dynamic a { position:relative; }
+ul[class^="dynamic"] ul { display:none; }
+ul[class^="dynamic"] ul { displa\y:block; }
+
+/* Static classes */
+li[class^="static"] ul { display:block; }
+li[class^="static"] li { displa\y:block; }
+
+/* End of static classes*/
+
+/* CONTENT AREA */
+#content {padding: 12px 9px 5px 9px;}
+
+/*PAGE TOOLS*/
+
+/* Subheaders */
+.superspcr {padding-top:15px;}
+
+/* Back to Top */
+
+/* Layout tables */
+
+/* Data tables */
+
+/* FEATURE ITEM */
+.featureitem {padding-bottom:10px;}
+.featureitem p {font-size: 75%; margin-top:5px}
+.featureitem ul li {font-size: 75%}
+
+/* FOOTER*/

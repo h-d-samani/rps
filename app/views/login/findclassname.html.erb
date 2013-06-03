@@ -1,0 +1,39 @@
+<h1>Forgotten the code?</h1>
+
+<% form_tag do %>
+<p>&nbsp;</p>	
+<p>
+	<select name="code">
+	<option value="BRSS">BRSS
+	<option value="CMPN">CMPN
+	<option value="ENSE">ENSE
+	<option value="GENS">GENS
+	<option value="GRAD">GRAD
+	<option value="JAZZ">JAZZ
+	<option value="KEYB">KEYB
+	<option value="MCGY">MCGY
+	<option value="MUED">MUED
+	<option value="ORGN">ORGN
+	<option value="PERF">PERF
+	<option value="PRCN">PRCN
+	<option value="STRG">STRG
+	<option value="VSAO">VSAO
+	<option value="WIND">WIND
+	</select>
+</p>	
+<p>&nbsp;</p>	
+	<p>
+		<%= submit_tag "get listing" %>
+<input type=button value="Back" onClick="javascript:window.location='<%= root_path %>login/login' ">	
+
+	</p>
+<% end %>	
+	
+	<table>
+	<% for unit_of_study in @unit_of_studies %>		
+		<tr><td><%= unit_of_study.ucode %></td><td><%= unit_of_study.uname %></td>  
+	<% end %>	
+	</table>
+	
+
+	

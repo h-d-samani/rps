@@ -1,0 +1,12 @@
+<div id="tabbar">
+  <ul id="tabs" class="horizontal">
+    <li<%= @active_tab == 'example_tab' ? ' class="active"' : '' %>>
+      <span><%= link_to '<span>Example Tab</span>', url_for(:controller => 'example', :action => 'index') %></span>
+    </li>
+    <li<%= @active_tab == 'example_tab2' ? ' class="active"' : '' %>>
+      <span><%= link_to '<span>Example Tab 2</span>', url_for(:controller => 'example2', :action => 'index') %></span>
+    </li>
+  </ul>
+</div>
+
+<div id="tabunderscore"></div>

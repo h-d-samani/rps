@@ -1,0 +1,34 @@
+<h1>Change Unit of Study Examiner</h1>
+
+<% form_tag do %>
+<p>&nbsp;</p>
+	<p>
+		<label for="code">UOS Code:</label>
+		<%= @u.ucode %>
+	</p>
+<p>&nbsp;</p>	
+	<p>
+		<label for="code">UOS Name:</label>
+		<%= @u.uname %>
+	</p>
+<p>&nbsp;</p>	
+	<p>
+		<label for="code">Examiner:</label>
+		<%= @u.examiner.name %>
+	</p>
+<p>&nbsp;</p>
+	<p>
+		<label for="examiner">Examiner:</label>
+		<%= collection_select("examiner", "id" , @e, "id", "name", {:prompt => true}) %>
+	</p>
+<p>&nbsp;</p>	
+	<p>
+	    <input type ='hidden' name='uos_id' value='<%= @u.id %>'>
+		<%= submit_tag "submit" %>
+		<input type=button value="Back" onClick="javascript:window.location='<%= root_path %>admin/uos_list' ">			
+	</p>
+	
+	<p>
+	
+<% end %>	
+	

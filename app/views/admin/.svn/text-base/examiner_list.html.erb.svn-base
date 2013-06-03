@@ -1,0 +1,29 @@
+<h1>Examiner list</h1>
+<p>
+<%= link_to "Back to Home", :controller=>'admin',:action =>'index' %>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr><th>Name</th><th>Login</th><th>Admin</th><th>Email</th><th>Units of Studies</th></tr>
+
+<% if @e %>
+	<% for @ee in @e %>
+		<tr>
+     	<td>
+     	<%= link_to @ee.name, :action =>'examiner_edit', :examiner_id=>@ee.id %>
+     	</td>
+     	<td><%= @ee.login %></td>
+     	<td>
+     	<% if(@ee.admin== true) %>
+     		Yes
+     	<% else %>
+     	    &nbsp;
+     	<% end %>	
+     	</td>
+     	<td><%= @ee.email %></td><td>
+     	<%	for @u in @ee.unit_of_studies %>
+        	<%= @u.ucode %>   
+     	<% end %>
+     	</td></tr>
+	<% end %>       
+<% end %>
+</table>
+</p>

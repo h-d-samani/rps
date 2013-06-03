@@ -1,0 +1,25 @@
+/* This stylesheet contains overrides to fix IE6 issues */
+body { padding: 0 498px; }
+#head ul#nav-global { right: -1px; }
+#head ul#nav-home a span { height: 1.3em; }
+
+
+ul#tabs li { width:1%; }
+
+#content ul#events li { border-bottom: 1px dashed #d6d6d6; list-style-image: none; margin: 0; }
+#content ul#events li ul li { border-bottom: none; list-style: url(../../images/sp/list-item-grey_caret.gif); margin-left: 18px;  }
+
+#content ul.news li { 	height: 1%; }
+#content ul.news li img {
+}
+
+#sidebar dl.teaser { 
+	width: 176px; 
+	margin-right: 0;
+}
+#sidebar dl.teaser dt { width: 160px;  }
+#sidebar dl.teaser.text dt {
+	width: 160px;
+}
+
+

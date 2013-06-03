@@ -1,0 +1,377 @@
+body {
+	font-family:Arial, Helvetica, sans-serif;
+	margin: 0 0 0 0;
+	background-color:#FFFFFF;
+	font-size: 100%;
+}
+.frontPage_topBanner {
+	display: block;
+	background-color: #AB2730;
+	width: 788px;
+}
+
+.fronPageBanner {
+	margin-top: 7px;
+}
+
+.hidden {
+	visibility: hidden;
+	font-size:1px;
+	width:0px;
+	font-size:0px;
+}
+
+/* search */
+
+.searchBox {
+	font-size: 75%;
+	color:#AB2730;
+	border-style:solid;
+	border-color: #AB2730;
+	border-width: 1px;
+	margin-right: 2px;
+	margin-left: 5px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	width: 156px;
+}
+
+.searchBoxFrontPage { 
+	 background-color:#EEB30F; padding-top:5px; padding-bottom:5px
+}
+
+.searchTable{
+	background-color: #EEB30F;
+	margin: 0 0 0 0;
+}
+
+.searchBox#courseSearch{
+	margin-top: 5px;
+	width: 200px;
+}
+
+
+/* top navigation */
+
+.topLinks {
+	color: #AB2730;
+	text-decoration: none;
+	list-style: none;
+	margin-left: 10px;
+	padding-left: 5px;
+	line-height: 15pt;
+	font-weight: bold;
+}
+
+.topLinks a{
+	color: #AB2730;
+	text-decoration: none;
+}
+
+ul.topLinks li a:hover {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+ul.topLinks li{
+	margin-bottom: 1px;
+}
+
+
+/* front page middle title bar  */
+
+.middle {
+	width: 403px;
+}
+
+td.frontPage_MidTitleBar  {
+	color: #184674;
+	font-style: normal;
+	text-transform: none;
+	text-align: left;
+	padding-left: 10px;
+	font-weight: bold;
+	width: 100%;
+	height: 33px;
+}
+
+table.frontPage_MidTitleBar {
+	height: 33px;
+}
+
+.frontPage_MidTitleBar a, .frontPage_MidTitleBar a:hover, .frontPage_MidTitleBar a:focus, .frontPage_MidTitleBar a.rollover, .frontPage_MidTitleBar a.rollover:visited{
+	color: #184674;
+	text-decoration: none;
+	display: block;
+	width: 150px;
+	height:17px;
+}
+
+.frontPage_MidTitleBarLinks{
+	padding-right:10px;
+}
+.frontPage_MidTitleBarLinks a, .frontPage_MidTitleBarLinks a:hover, .frontPage_MidTitleBarLinks a:focus, .frontPage_MidTitleBarLinks a.rollover, .frontPage_MidTitleBarLinks a.rollover:visited {
+	color:#993333;
+	font-size: 85%;
+}
+
+/* front page middle content table  */
+
+.frontPage_MidContentTable{
+	text-align: left;
+	margin-top: 5px;
+	margin-left:10px;
+	margin-right:10px !important; padding:0 0 0 0; margin-right: 0;
+}
+.frontPage_MidContentTitle{
+	background-repeat:no-repeat;
+	vertical-align:middle;
+	color: #184674;
+	font-weight: bold;
+	text-align: left;
+}
+
+.frontPage_MidContentTitle a, .frontPage_MidContentTitle a:visited, .frontPage_MidContentTitle a:hover, .frontPage_MidContentTitle a:focus, .frontPage_MidContentTitle a.rollover, .frontPage_MidContentTitle a.rollover:visited {
+	text-decoration: none;
+	color: #184674;
+	}
+
+.frontPage_MidContentContent{
+	text-align: left;
+	vertical-align: top;
+	padding: 7px 0 0 0;
+}
+
+.frontPage_MidContentDescription{
+	font-size: 70%;
+	text-align: left;
+	vertical-align: top;
+	padding: 1px 0 0 0;
+}
+
+.frontPageMidList {
+	color: #000;
+	font-style: normal;
+	text-align: left;
+	margin-left: -10px;
+    margin-top: 0px;
+	padding-left: 0px;
+	list-style: none;
+	font-size:75%;
+	list-style: none;
+}
+
+ul.frontPageMidList li{
+	padding-bottom: 3px;
+}
+ul.frontPageMidList li a, ul.frontPageMidList li a:visited {
+	text-decoration:none;
+	color: #993333;
+	}
+	
+ul.frontPageMidList li	a:hover, ul.frontPageMidList li a:focus, ul.frontPageMidList li a.rollover, ul.frontPageMidList li a.rollover:visited {
+	text-decoration:underline;
+}
+
+/* frontPage leftside menus */
+
+.leftMenu {
+	background-color: #AB2730;
+	vertical-align: top;
+	width: 215px;
+}
+
+.frontPageLeftMenuTable{
+	margin-top: -10px;
+}
+
+td.frontPageLeftMenuTitle {
+	background-repeat:no-repeat;
+	background-color:#AB2730;
+	height:30px;
+	color: #EEB211;
+	font-style: normal;
+	text-align: left;
+	padding-left: 12px;
+	font-weight: bold;
+	font-size: 90%;
+}
+
+td.frontPageLeftMenuTitle a, td.frontPageLeftMenuTitle a:visited, td.frontPageLeftMenuTitle a:hover, td.frontPageLeftMenuTitle a:focus, td.frontPageLeftMenuTitle a.rollover, td.frontPageLeftMenuTitle a.rollover:visited {
+	text-decoration: none;
+	color: #EEB211;
+	width: 155px;
+	height:20px;
+	display: block;
+	}
+
+.frontPageLeftMenu {
+	background-color: #AB2730;
+	font-size: 75%;
+	color: #FFFFFF;
+	text-decoration: none;
+	font-style: normal;
+	text-align: left;
+	margin-top: -3px;
+	list-style: none;
+	margin-left: 7px;
+	padding-left: 15px;
+}
+
+ul.frontPageLeftMenu li{
+	margin-bottom: 0px;
+	line-height: 20px;
+}
+ul.frontPageLeftMenu li a, ul.frontPageLeftMenu li a:visited {
+	text-decoration: none;
+	color: #FFFFFF;
+	}
+	
+ul.frontPageLeftMenu li	a:hover, ul.frontPageLeftMenu li a:focus, ul.frontPageLeftMenu li a.rollover, ul.frontPageLeftMenu li a.rollover:visited {
+	color: #EEB311;
+	}
+
+/* front Page quick links */	
+#quickLinks{
+	background-color: #EEB311;
+	vertical-align: middle;
+	display: block;
+	width: 200px;
+	position: absolute;
+	left: 588px;
+	top: 0px;
+	height: 25px;
+	color: #781017;
+}
+
+.frontPageQLinks	{
+	background-color:#FFFFFF;
+	color:#A8312B;
+	font-size: 75%;
+	border-width: 1px;
+	border-style: solid;
+	border-color:#AB2730;
+	width: 160px;
+	margin-right: 2px;
+	margin-top: 2px;
+}
+.frontPageQLinksTable{
+	padding-left:15px;
+	margin-top:10px;
+}
+
+/* frontPage right menus */
+.frontPageRightMenuTable{
+	margin-top:10px;
+	background-color: #EEB30F;
+}
+
+td.frontPageRightMenuTitle {
+	background-repeat:no-repeat;
+	color: #AB2730;
+	font-style: normal;
+	text-align: left;
+	padding-left: 10px;
+	font-weight: bold;
+	height: 25px;
+	font-size: 90%;
+}
+
+.frontPageRightMenu {
+	background-color: #FFFFFF;
+	color: #993333;
+	font-style: normal;
+	text-align: left;
+}
+
+.frontPageRightMenuList{
+	margin-left: 5px;
+	list-style: none;
+	padding-left: 5px;
+	padding-bottom:5px;
+	list-style: none;
+	font-size: 75%;
+}
+
+ul.frontPageRightMenuList li{
+	padding-top: 3px;
+}
+ul.frontPageRightMenuList li a, ul.frontPageRightMenuList li a:visited {
+	color: #993333;
+	text-decoration:none;
+	}
+	
+ul.frontPageRightMenuList li	a:hover, ul.frontPageRightMenuList li a:focus, ul.frontPageRightMenuList li a.rollover, ul.frontPageRightMenuList li a.rollover:visited {
+	text-decoration:underline;
+}
+
+/*   ####    front page footer    ###   */
+.frontPageFooterText{
+	width:788px;
+	height: 80px;
+	background-color:#AB2730;
+	background-image:url(/images/content/cws/front/newPages/frontPage_footer_bg_red.gif);
+	background-repeat:no-repeat;
+	font-size: 70%;
+	color: #FFFFFF;
+	border-top: #EEB311 solid 2px;
+	text-align: center;
+	text-decoration: none;
+	clear: left;
+	vertical-align:middle;
+}
+
+.frontPageFooterText a,  .frontPageFooterText a:visited{
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+/*  front Page news block   */
+
+.frontPage_newsTable {
+	font-size: 70%;
+	border:0;
+	margin-bottom: 15px;
+	padding-bottom:-5px;
+	margin-left:10px;
+	margin-right:10px;
+}
+.frontPage_newsTable td{
+	padding-top:5px;
+	text-align: left;
+
+}
+
+.frontPage_newsTable td strong{
+	color: #959595;
+	margin-left: 15px;
+
+}
+
+.frontPage_newsTable a.title, .frontPage_newsTable a.title:visited{
+	font-size: 110%;
+	color:#AB2730;
+	font-weight:bold;
+}
+.frontPage_newsTable img{
+	margin-top:3px;
+	margin-right:5px;
+	margin-bottom:5px;
+}
+
+
+.spacer {
+	display: inline;
+	padding: 0px 0px 0px 5px;
+}
+
+.middle .frontPage_MidContentTable .frontPage_MidContentContent ul {
+	padding-left: 10px;
+}
+
+
+/*  fid course link */
+.FindCourse {
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+}

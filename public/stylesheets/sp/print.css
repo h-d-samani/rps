@@ -1,0 +1,86 @@
+body {
+	margin:0;
+	padding:0;
+	color:#000;
+	font-family:Verdana,Arial,Helvetica,sans-serif;
+	font-size:9pt;
+}
+img {
+	border:0;
+	display:block;
+	margin-bottom:1.4em;
+}
+a {
+	color:#000;
+	text-decoration:underline;
+}
+.noprint, div#nav, div#subnav, div#footer, body.b-home div#mid p {display:none;}
+div#print-head {
+	font-weight:bold;
+	font-size:22pt;
+	letter-spacing:-1pt;
+	border-bottom:1px solid #000;
+	margin-bottom:12pt;
+	padding-bottom:9pt;
+}
+h1, h2, h3, h4, h5, h6 {font-weight:bold;text-transform:capitalize;}
+h1 {font-size:16pt;}
+h2 {font-size:14pt;}
+h3 {font-size:12pt;}
+h4 {font-size:11pt;}
+h5 {font-size:10pt;}
+h6 {font-size:9pt;}
+blockquote {
+	margin-left:20pt;
+	margin-right:20pt;
+	padding:7pt;
+	border:1px solid #000;
+}
+.important {
+	margin:1.4em 20pt !important;
+	padding:7pt;
+	border-top:1px solid #000;
+	border-bottom:1px solid #000;
+}
+dt {font-weight:bold;}
+div#mid ul.doclist li a {display:block;}
+table {
+	border-top:1px solid #000;
+	border-left:1px solid #000;
+	border-right:1px solid #000;
+}
+th, td {
+	vertical-align:top;
+	text-align:left;
+	padding:1pt 3pt;
+	border-bottom:1px solid #000;
+}
+th {
+	font-weight:bold;
+	white-space:nowrap;
+}
+.print {display:block;}
+
+#content a, a { text-decoration: underline; color: black; }
+div#foot, img#logo, div#sidebar, div#sidenav, ul#nav-home, div#head form, ul#nav-global, div.strip { display: none; }
+body.home #head, div#head { margin: 0; height: auto;}
+div#head h1 { text-align: left; top: 0; left: 0; border-bottom: 1px solid black; position: relative; }
+#mid { margin: 0; }
+div#content { margin: 0; }
+#content { padding:0; }
+
+div#tabbar form { display: none; }
+#content p.buttons { display: none; }
+#content ul#visitors-content > li {display: block;  }
+
+
+div#w2 { margin: 0; width:100%;}
+
+div#tabbar {border-bottom: 1px solid #999; width: 100%; height: 2em; margin: 0;}
+ul#tabs { position: relative; margin: 0; }
+ul#tabs li { display: none; height: 1.5em; }
+ul#tabs li.active { display: block; color: black; font-size: 1.3em; margin: 0; }
+ul#tabs li.active a { color: #666; }
+ul#tabs li.active a span { padding: 0; color: #666; }
+
+#content ul.column-list { width: 40%;}

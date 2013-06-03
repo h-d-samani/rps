@@ -1,0 +1,17 @@
+<h1>UOS unlock </h1>
+
+<% form_tag root_path+'admin/uos_unlock' do %>
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+
+<tr><td><b>Units of Study Completed:</b></td><td></td></tr>
+	<%  i=0
+		for @oo in @o  do
+			i= i+1	%>
+		<tr><td><%= @oo.ucode %> -- <%= @oo.uname %><%= check_box('choice_'+i.to_s, 0,{}, @oo.id, '') %></td><td>&nbsp;</td></tr>
+	<% end %>	
+</table>
+        <input type='hidden' name='i' value=<%= i %>>
+		<%= submit_tag "Submit" %>
+		<input type=button value="Back" onClick="javascript:window.location='<%= root_path %>admin' ">		
+<% end %>		

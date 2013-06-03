@@ -1,0 +1,36 @@
+/* FORMS */
+.formblock { padding: 5px 0px 5px 0px; display: block; width: 60%; }
+.elementerrors { display: none; padding-bottom: 5px; }
+#elementlabel { float: left; padding: 5px; width: 120px; display: block; }
+#elementcontent_rhs, #elementcontent_full { padding: 5px; display: block; }
+#elementcontent_rhs { float: right; width: 60%; }
+.compulsorybadge { color: red; }
+.angry { border: solid; border-width: 1px; border-color: red; background-color: #FFCCCC; margin-bottom: 5px; }
+.angry .elementerrors { display: block !important; color: black; font-weight: bold; font-size: 80%; }
+.errorsummary { border: solid; border-width: 1px; border-color: red; background-color: #FFCCCC; color: black; font-weight: bold; font-size: 80%; padding: 5px; margin: 15px 0px 15px 0px; }
+#radio { display: inline; }
+.req_footonote { font-weight: bold; color: red; margin-top: -10px; margin-bottom: -10px; }
+.dateSelectorWidget { float: left; clear: right; }
+.dateSelectorWidgetCaption { color: grey; font-size: 0.9em; }
+
+/* GREY BOX */
+.rbox_bl {background: url(../images/nav/cws/bl.gif) 0 100% no-repeat #e6e6e6; padding: 0; margin: 0;}
+.rbox_br {background: url(../images/nav/cws/br.gif) 100% 100% no-repeat}
+.rbox_tl {background: url(../images/nav/cws/tl.gif) 0 0 no-repeat}
+.rbox_tr {background: url(../images/nav/cws/tr.gif) 100% 0 no-repeat; padding:10px}
+
+/* CALENDAR */
+.cpYearNavigation,.cpMonthNavigation { background-color:#C0C0C0; text-align:center; vertical-align:middle; text-decoration:none; color:#000000; font-weight:bold; }
+.cpDayColumnHeader, .cpYearNavigation,.cpMonthNavigation,.cpCurrentMonthDate,.cpCurrentMonthDateDisabled,.cpOtherMonthDate,.cpOtherMonthDateDisabled,.cpCurrentDate,.cpCurrentDateDisabled,.cpTodayText,.cpTodayTextDisabled,.cpText { font-family:arial; font-size:8pt; }
+TD.cpDayColumnHeader { text-align:right; border:solid thin #C0C0C0;border-width:0px 0px 1px 0px; }
+.cpCurrentMonthDate, .cpOtherMonthDate, .cpCurrentDate  { text-align:right; text-decoration:none; }
+.cpCurrentMonthDateDisabled, .cpOtherMonthDateDisabled, .cpCurrentDateDisabled { color:#D0D0D0; text-align:right; text-decoration:line-through; }
+.cpCurrentMonthDate, .cpCurrentDate { color:#000000; }
+.cpOtherMonthDate { color:#808080; }
+TD.cpCurrentDate { color:white; background-color: #C0C0C0; border-width:1px; border:solid thin #800000; }
+TD.cpCurrentDateDisabled { border-width:1px; border:solid thin #FFAAAA; }
+TD.cpTodayText, TD.cpTodayTextDisabled { border:solid thin #C0C0C0; border-width:1px 0px 0px 0px;}
+A.cpTodayText, SPAN.cpTodayTextDisabled { height:20px; }
+A.cpTodayText { color:black; }
+.cpTodayTextDisabled { color:#D0D0D0; }
+.cpBorder { border:solid thin #808080; }

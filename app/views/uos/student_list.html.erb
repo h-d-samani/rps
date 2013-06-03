@@ -1,0 +1,113 @@
+<script language="javascript">
+var x=0;
+
+function chkallfields() {
+    
+ 
+     // if its the save button, just return and allow to submit, else do all this shit
+     if(x == 1) {
+         return true;
+     }
+
+    for(i=2;i<document.enterresults.elements.length-3; i+=3) {  // 3 hidden fields first, then only check the 'm' fields not the g fields...
+        
+     
+     // Note DNF grade not allowed  - DNF grades require Peter McCallum's approval
+	if(document.enterresults.elements[i].value == "") {
+	    if(document.enterresults.elements[i+1].value.toUpperCase() != "AF" && document.enterresults.elements[i+1].value.toUpperCase() != "INC" && document.enterresults.elements[i+1].value != "R" && document.enterresults.elements[i+1].value != "UCN") {
+	       alert("Marks fields must contain a mark unless the grade is INC, AF, UCN or R [" +document.enterresults.elements[i].name + "]");
+		return false;
+	    }
+	}
+	if(document.enterresults.elements[i].value < 50 && document.enterresults.elements[i].value != "") {
+	    // Force a result of F
+	    // fail - can also be AF with a result, though this is rare -  *** add code for this in 2003! ***
+	    if(document.enterresults.elements[i+1].value.toUpperCase() != "F") {
+	        alert("The result of " + document.enterresults.elements[i].value + " requires a grade of F");
+		return false;
+	    }
+
+	}
+	
+	if(document.enterresults.elements[i].value >= 50 && document.enterresults.elements[i].value <65 && document.enterresults.elements[i+1].value !="" ) {
+	    // pass
+	    if(document.enterresults.elements[i+1].value.toUpperCase() != "P" && document.enterresults.elements[i+1].value.toUpperCase() != "MINC") {
+	        alert("The result of " + document.enterresults.elements[i].value + " requires a grade of P or MINC");
+		return false;
+	    }
+
+	}
+
+	if(document.enterresults.elements[i].value >= 65 && document.enterresults.elements[i].value <75 && document.enterresults.elements[i+1].value !="" ) {
+	    // credit
+	    if(document.enterresults.elements[i+1].value.toUpperCase() != "CR"  && document.enterresults.elements[i+1].value.toUpperCase() != "MINC") {
+	        alert("The result of " + document.enterresults.elements[i].value + " requires a grade of CR or MINC");
+		return false;
+	    }
+
+	}
+	if(document.enterresults.elements[i].value >= 75 && document.enterresults.elements[i].value <85 && document.enterresults.elements[i+1].value !="" ) {
+	    // distinction
+	    if(document.enterresults.elements[i+1].value.toUpperCase() != "D"  && document.enterresults.elements[i+1].value.toUpperCase() != "MINC") {
+	        alert("The result of " + document.enterresults.elements[i].value + " requires a grade of D or MINC");
+		return false;
+	    }
+
+	}
+
+	if(document.enterresults.elements[i].value >= 85 && document.enterresults.elements[i].value <=100 && document.enterresults.elements[i+1].value !="" ) {
+	    // high distinction
+	    if(document.enterresults.elements[i+1].value.toUpperCase() != "HD"  && document.enterresults.elements[i+1].value.toUpperCase() != "MINC") {
+	        alert("The result of " + document.enterresults.elements[i].value + " requires a grade of HD or MINC");
+		return false;
+	    }
+
+	}
+
+     }
+
+return true;
+
+}
+</script>
+
+<h1>Results Sheet <%= @unit_of_study.ucode %>: <%= @unit_of_study.uname %>, Semester <%= @c1.cfg_value %>, <%= @c2.cfg_value %></h1>
+<p>
+<% form_tag ({:action =>:update} ,{:name=>"enterresults",:onSubmit=>"return chkallfields();"}) do -%>
+<input type ='hidden' name='subj' value='<%= h(@unit_of_study.id) %>'>
+<table>
+<tr><th>SID</th><th>Family Name</th><th>Given names</th><th>Degree</th><th>Mark</th><th>Grade</th></tr>
+<% 
+jsstuff="onChange=\" reg=/[^0-9\.]/; if(reg.test(this.value)){ this.value=\'\'; alert(\'Marks must be numbers\'); } \" ";
+j=0;
+for result in @results 
+%>
+<tr><td><%= result.sid %></td>
+<td><%= result.sname %></td>
+<td><%= result.fname %></td>
+<td><%= result.degree %></td>
+<td>
+<% if(@unit_of_study.complete ==2 and result.grade !="INC") %>
+	<input type='hidden' name=m<%= j %> size='5' value='<%= result.mark %>' > <%= result.mark %>
+<% else %>
+	<input type='text' name=m<%= j %> size='5' value='<%= result.mark %>' <%= jsstuff %>>
+<% end %>
+</td>
+<td>
+<% if(@unit_of_study.complete ==2 and result.grade !="INC") %>
+	<input type='hidden' name=g<%= j %> size='7' value='<%= result.grade %>' > <%= result.grade %>
+<% else %>
+	<input type='text' name=g<%= j %> size='7' value='<%= result.grade %>'>
+<% end %>
+<input  type='hidden' name=s<%= j %> size='10' value='<%= result.id %>'></td></tr>			
+<% 
+j=j+1;
+end 
+%>
+</table>
+<input type ='hidden' name='no_sid' value='<%= j %>'>
+<P><input type='submit' name='save' value='Save These Results' onClick='x=1;'> &nbsp;&nbsp;Come back and add more results later</p>
+<p><input type='submit' name='complete' value='Finish' onClick='x=0;'>&nbsp;&nbsp;<b>WARNING:</b> Check that you have all the results correct as only INC results in the file will be editable once you have clicked here</p> 
+
+<% end -%>
+</p>

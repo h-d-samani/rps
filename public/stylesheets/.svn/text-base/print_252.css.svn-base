@@ -1,0 +1,88 @@
+html, body {padding:0;margin:0;font-family: Verdana, Arial, Helvetica, sans-serif;}
+/* HEADER */
+.role {font-size: 100%;font-weight: bold;background-repeat:no-repeat; background-position: 227px;}
+.title {display:none;}
+.nav_bar {float: left;height: 28px;padding:0;margin:0;}
+.breadcrumb {font-size:65%;padding: 8px 5px 0 5px;float: left;width: auto;}
+.breadcrumb a {display: inline;}
+.global {display:none;}
+.lmspcr {clear:both;margin:0;padding:0;height: 1px;line-height:1px;}
+.clrspcr {clear:both;margin:0;padding:0;height: 5px;line-height:3px;float: left;}
+form, .search {display:none}
+
+/* TAB NAVIGATION */
+#tabs {position:relative;display:none;}
+.bluspcr {clear:both; height: 1px; line-height:1px;}
+
+/* MAIN TABLE */
+#main {width: 619px;clear: both;float: left;margin:0;padding:0;}
+#menucol{padding: 0px;margin: 0px;vertical-align: top;}
+
+/* MENUS*/
+.nav {top:0;vertical-align: top; display:none;}
+
+/* CONTENT AREA */
+#contentcol {vertical-align:top;}
+#content {font-size:85%;background-color: #FFF;float: left;clear: both;vertical-align: top;padding: 5px 9px 5px 9px !important;padding: 12px 9px 5px 9px;}
+#content h1 {font-size: 130%; font-weight: bold;}
+#content h3 {font-size: 90%;}
+#content p {font-size: 90%;line-height: 1.4em;}
+#content ul {font-size: 95%;clear: both;list-style-type: disc;}
+#content ul li {padding:3px 0 3px 0;}
+#content ol {font-size: 95%;clear: both;}
+#content ol li {padding:3px 0 3px 0;}
+#content hr {height: 1px;border: 0px;}
+#content img {padding:5px 5px 5px 5px;}
+#content .left {text-align:left;}
+#content .right {text-align:right;}
+#content .center {text-align:center;}
+#content .fltleft {float: left;}
+#content .fltright {float: right;}
+
+/* Subheaders */
+div.subheader {padding: 10px 0px 0px 0px !important; padding:0px}
+.subheader div {float: left;position: relative;}
+.subheader h2 {vertical-align: middle;text-align: left;font-size: 85%;padding: 3px 26px 3px 6px;margin:0;width: auto;}
+.subline {clear:both; height:1px; line-height:1px; width:100%;}
+.subspcr {clear:both;line-height: 1px;font-size: 1px;display: block;}
+#content>div.subspcr{height:1px;} 
+.wt {background-image:url(images/wt.gif); background-position:top right; background-repeat:no-repeat;}
+
+/* Back to Top */
+.bt {background-color: #FFFFFF;float: right;}
+.bt a {color: #8B951B;font-size: x-small;text-decoration: none;padding: 3px000;background-color:#FFFFFF;}
+.bt a:hover {text-decoration: underline;}
+
+/* Layout tables */
+table.layout td {font-size:90%;}
+
+/* Data tables */
+table.tabledata_blue {border-collapse:collapse;font-size: 90%;text-align : left;border: 1px solid white;width: 100%;margin-bottom: 10px;margin-top: 10px;}
+.tabledata_blue caption {font-weight:bold; text-align:left; padding: 3px 3px 3px 3px;}
+.tabledata_blue th {border-collapse:inherit;font-weight:bold;color:#FFF;background-color:#39638d;padding:3px 3px 3px p3x;} 
+.tabledata_blue td {border-collapse:inherit;background-color:#F1F4FA;border-bottom:solid white 1px;vertical-align:middle;}
+.tabledata_blue .white td {background-color:#FBFCFD;}	
+
+/* FEATURE TABLE and ITEMS*/
+#feature {width: 170px;vertical-align: top;padding-right: 5px;}
+#pagetools {display:none;}
+
+/* FEATURE ITEM */
+.featureitem {margin-top:10px;margin-bottom:10px;clear:both;font-size: 80%;}
+.featureitem h3 {font-weight: bold;padding: 3px 3px 3px 3px;text-align: center;margin-top:0;margin-bottom:0;font-size: 80%;}
+.featureitem p {font-size: 80%;padding: 0px 8px 0px 8px;}
+.featureitem ul {list-style-image: url(../images/nav/cws/bullet.gif);margin: 5px 0 5px 12px;padding:3px 0 3px 12px;}
+.featureitem ul li {padding:2px 0 2px 0;}
+.featureitem ol {margin: 5px 0 5px 12px;padding:3px 0 3px 12px;}
+.featureitem ul li {padding:2px 0 2px 0;}
+.featureitem img {border:0;margin:3px 3px 3px 3px;}
+div.noborder {border:0 none #fff;}
+
+/* FOOTER*/
+.footer {font-size: 11px;color: #000;text-decoration: none;border-top: solid #000 1px;text-align: center;background-color: #FFF;width: auto;clear: left;}
+.footer a {text-decoration: none;color: #00F;}
+.footer a:hover {text-decoration: underline;color: #00F;}
+.footer a:visited {color:#909;}
+
+td img.decor {display: block;width: 1px;height: 1px;border:0;}
+@media print {.dontPrintMe{display : none;}  }

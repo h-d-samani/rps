@@ -1,0 +1,44 @@
+<h1>Results Processing System</h1>
+
+<table width="100%">
+<tr><td width="90%">
+Enter your Username and Password and click on the "Submit" button.
+</td>
+<td>
+<A HREF="<%= root_path %>login/rphelp"><img src="<%= root_path %>images/common/help.jpg" border=0 alt="help"></a> 
+</td>
+</table>
+
+<% form_tag do %>
+<table>
+	
+<tr><td>		<label for="name">Login Name:</label>
+</td><td>		<%= text_field_tag :name, params[:name] %>
+
+</td></tr>
+<tr><td colspan='2'>&nbsp;</td></tr>
+
+<tr><td>
+		<label for="password">Password:</label>
+</td><td>			<%= password_field_tag :password, params[:password] %>
+</td></tr>
+</table>
+<p>
+		<%= submit_tag "Login" %>
+</p>
+<br><br>
+<p>
+<font face="Arial" size="2"> &nbsp;This system contains personal information. The unauthorised
+disclosure of personal information is prohibited by the NSW Privacy
+and <br> &nbsp;Personal Information Protection Act 1998.
+
+It is a criminal offence to: <br>&nbsp;(i)  obtain access to data without authority
+(Penalty 2 years imprisonment) <br>&nbsp;(ii) Damage, delete, alter or insert
+data without authority (Penalty 10 years imprisonment).</font></p>
+	<p>
+	
+	</p><br><br>
+	If you forget your password, please <a href="<%= root_path %>login/password">click here</a>. 
+	If you forget the code, please <a href="<%= root_path %>login/findclassname">click here</a>.
+<% end %>	
+	

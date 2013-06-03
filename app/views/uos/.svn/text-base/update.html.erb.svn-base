@@ -1,0 +1,4 @@
+<h1>Results Saved</h1>
+<p>
+<%= link_to "Back to Home", :controller=>'uos',:action =>'index' %>
+</p>

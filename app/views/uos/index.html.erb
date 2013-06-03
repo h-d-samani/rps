@@ -1,0 +1,27 @@
+<h1>UOS List</h1>
+<p>
+<table>
+<tr><th>UOS Code</th><th>UOS Name</th><th>Status</th></tr>
+<% for unit_of_study in @unit_of_studies %>
+<td>
+<% if unit_of_study.complete == 1 %>
+<%= h(unit_of_study.ucode) %>
+<% else %>
+<%= link_to unit_of_study.ucode, :action =>'student_list', :id=>unit_of_study %>
+<% end %>
+</td>
+<td>
+<%= h(unit_of_study.uname) %>
+</td>
+<td>
+<% if unit_of_study.complete ==1 %> 
+	Complete
+<% end %>	
+<% if unit_of_study.complete ==2 %>
+	Inc
+<% end %>
+</td>
+</tr>
+<% end %>
+</table>
+</p>

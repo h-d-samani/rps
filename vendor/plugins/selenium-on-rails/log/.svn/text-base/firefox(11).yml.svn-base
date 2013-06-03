@@ -1,0 +1,9 @@
+--- 
+result: failed
+numTestPasses: "2"
+numTestFailures: "6"
+numCommandFailures: "0"
+numCommandPasses: "16"
+numCommandErrors: "6"
+resultDir: /tmp/firefox(11)
+totalTime: "11"

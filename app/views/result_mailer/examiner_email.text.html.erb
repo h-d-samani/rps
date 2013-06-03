@@ -1,0 +1,10 @@
+<p><%= @unit_of_study.ucode %> <%= @unit_of_study.uname %>	Semester <%= @c1.cfg_value %>, <%= @c2.cfg_value %></p>
+
+<table> 	 
+<tr><td>Last Name</td><td>Given Names</td><td>Degree</td><td>Mark</td><td>Grade</td></tr>   
+<% for r in @result %>
+	<tr><td><%= r.sname %></td><td><%= r.fname %></td><td><%= r.degree %></td><td><%= r.mark %></td><td><%= r.grade %></td></tr>
+<% end %> 
+</table>
+<p>Signature _____________________</p>
+<p>Date __________</p> 
